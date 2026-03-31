@@ -82,11 +82,9 @@ p {
 }
 
 @media screen and (max-width: 768px) {
+
     header {
-        width: 100%;
-        height: auto;
-        margin: 20px;
-        display: flex;
+        margin: 20px 0 80px 20px;
     }
 
     .link-header {
@@ -98,33 +96,37 @@ p {
         height: 30px;
         font-size: 18px;
         line-height: 22px;
-        justify-content: flex-end;
-        margin-left: auto;
+        margin-left: 65vw;
     }
-    
+
     .logo-image {
-        width: 90%;
+        width: 300px;
         height: auto;
-        margin: 0;
+        margin-left: 20px;
     }
-    
+
     h1 {
         font-size: 50px;
         line-height: 60px;
     }
 
-    div {
-        display: inline-block;
-        margin: 20px auto;
-    }
-
     h2 {
-        font-size: 30px;
+        font-size: 50px;
         line-height: 60px;
     }
 
     p {
-        width: 100%;
-        text-align: center;
+        font-size: 18px;
+        line-height: 22px;
+        width: auto;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
+
+    .button-main {
+        width: 200px;
+        height: 50px;
+        font-size: 24px;
+        line-height: 30px;
     }
 }
